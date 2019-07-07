@@ -184,6 +184,8 @@
 						<value>webpage/common/functionIconStyleList.jsp</value>
 						<value>timeTaskController.do?remoteTask</value>
 						<value>rest/v2/api-docs</value>
+						<!-- web端直接访问 -->
+						<value>webCc3Controller.do?contact_doAdd</value>
 					</list>
 				</property>
 				<!-- 模糊匹配 -->

@@ -51,7 +51,7 @@
           <div class="center">
             <h1 id="id-text2" class="grey">
               <i class="ace-icon fa fa-leaf green"></i>
-               农业农产品库存管理系统
+               后台综合管理系统
             </h1>
             <h4 class="blue" id="id-company-text">127.0.0.1</h4>
           </div>
@@ -75,13 +75,13 @@
                   <div class="space-6"></div>
                       <label class="block clearfix">
 								<span class="block input-icon input-icon-right">
-									<input type="text"  name="userName" iscookie="true" class="form-control" placeholder="请输入用户名"  id="userName" value="admin"/>
+									<input type="text"  name="userName" iscookie="true" class="form-control" placeholder="请输入用户名"  id="userName" value=""/>
 									<i class="ace-icon fa fa-user"></i>
 								</span>
                       </label>
                       <label class="block clearfix">
 								<span class="block input-icon input-icon-right">
-									<input type="password" name="password" class="form-control" placeholder="请输入密码" id="password" value="123456"/>
+									<input type="password" name="password" class="form-control" placeholder="请输入密码" id="password" value=""/>
 									<i class="ace-icon fa fa-lock"></i>
 								</span>
                       </label>
@@ -122,7 +122,7 @@
                 </form>
               </div>
             </div>
-            <div class="center"><h4 class="blue" id="id-company-text">&copy; 毕业设计</h4></div>
+            <div class="center"><h4 class="blue" id="id-company-text">&copy; 传成软件</h4></div>
             <div class="navbar-fixed-top align-right">
               <br />
               &nbsp;
