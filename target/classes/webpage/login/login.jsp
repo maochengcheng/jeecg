@@ -51,9 +51,9 @@
           <div class="center">
             <h1 id="id-text2" class="grey">
               <i class="ace-icon fa fa-leaf green"></i>
-               后台综合管理系统
+               传成综合管理系统
             </h1>
-            <h4 class="blue" id="id-company-text">127.0.0.1</h4>
+            <h4 class="blue" id="id-company-text">47.110.47.80</h4>
           </div>
           <div class="space-6"></div>
           <div class="position-relative">

@@ -4,23 +4,19 @@
 <div class="easyui-layout" fit="true">
   <div region="center" style="padding:0px;border:0px">
   <t:datagrid name="putStockList"  pageSize="10" checkbox="true" pagination="true" fitColumns="false" 
-         queryMode="group" title="库存入库管理" actionUrl="stockBillController.do?datagrid" idField="id" fit="true">
-   <t:dgCol title="id"  field="id" hidden="false" width="150"></t:dgCol>  
-   <t:dgCol title="编号"  field="billNo" hidden="false" width="150"></t:dgCol>
-   <t:dgCol title="农产品分类"  field="productType" hidden="false" width="150" query="true" ></t:dgCol>
-   <t:dgCol title="农产品名称"  field="productName" hidden="false" width="150" query="true" ></t:dgCol>
-   <t:dgCol title="重量"  field="weight" width="150"></t:dgCol>
-   <t:dgCol title="入库人工号"  field="createBy" width="150"></t:dgCol>
-   <t:dgCol title="入库人"  field="createName" width="150"></t:dgCol>
-   <t:dgCol title="状态"  field="status" width="150"></t:dgCol>
-   <t:dgCol title="存储时间"  field="createTime" formatter="yyyy-MM-dd" width="150"></t:dgCol>
+         queryMode="group" title="新闻管理" actionUrl="webCc3Controller.do?newsdatagrid" idField="id" fit="true">
+   <t:dgCol title="id"  field="id" hidden="true" width="150"></t:dgCol>  
+   <t:dgCol title="分类"  field="newsType" hidden="false" width="100"></t:dgCol>
+   <t:dgCol title="标题"  field="title" hidden="false" width="100"></t:dgCol>
+   <t:dgCol title="内容"  field="content" hidden="false" width="400"  ></t:dgCol>
+   <t:dgCol title="状态"  field="status" width="100" query="true"></t:dgCol>
+    <t:dgCol title="创建人"  field="createNo" width="100" query="true"></t:dgCol>
+   <t:dgCol title="存储时间"  field="createTime" formatter="yyyy-MM-dd hh:mm:ss" width="150"></t:dgCol>
    
-   <t:dgToolBar title="入库登记" icon="icon-add" url="stockBillController.do?putStock_goAdd" funname="add" width="770" height="500"></t:dgToolBar>
-   <t:dgToolBar title="编辑" icon="icon-edit" url="stockBillController.do?putStock_goUpdate" funname="update" width="770"></t:dgToolBar>
-   <t:dgToolBar title="批量删除"  icon="icon-remove" url="stockBillController.do?putStock_doBatchDel" funname="deleteALLSelect"></t:dgToolBar>
-   <t:dgToolBar title="预出库"  icon="icon-edit" url="stockBillController.do?putStock_doBatchUpdate" funname="putStock_doBatchUpdate"></t:dgToolBar>
-  <t:dgToolBar operationCode="print" title="打印" icon="icon-print" url="jeecgListDemoController.do?print" funname="detail" width="610" height="330"></t:dgToolBar>
-  <t:dgToolBar  title="加载百度" icon="icon-print" url="#" funname="testReloadPage"></t:dgToolBar>
+   <t:dgToolBar title="新闻录入" icon="icon-add" url="webCc3Controller.do?news_goAdd" funname="add" width="770" height="500"></t:dgToolBar>
+   <t:dgToolBar title="编辑" icon="icon-edit" url="webCc3Controller.do?news_goUpdate" funname="update" width="770"></t:dgToolBar>
+   <t:dgToolBar title="批量删除"  icon="icon-remove" url="webCc3Controller.do?news_doBatchDel" funname="deleteALLSelect"></t:dgToolBar>
+
   </t:datagrid>     
   
 	

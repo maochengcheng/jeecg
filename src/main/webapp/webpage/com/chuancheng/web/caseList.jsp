@@ -4,24 +4,18 @@
 <div class="easyui-layout" fit="true">
   <div region="center" style="padding:0px;border:0px">
   <t:datagrid name="putStockList"  pageSize="10" checkbox="true" pagination="true" fitColumns="false" 
-         queryMode="group" title="留言板管理" actionUrl="webCc3Controller.do?contactdatagrid" idField="id" fit="true">
+         queryMode="group" title="案例管理" actionUrl="webCc3Controller.do?casedatagrid" idField="id" fit="true">
    <t:dgCol title="id"  field="id" hidden="true" width="150"></t:dgCol>  
-   <t:dgCol title="姓名"  field="name" hidden="false" width="100"></t:dgCol>
-    <t:dgCol title="留言"  field="content" width="400"></t:dgCol>
-   <t:dgCol title="手机"  field="mobilePhone" hidden="false" width="120" query="true" ></t:dgCol>
-   <t:dgCol title="邮箱"  field="email" hidden="false" width="150" query="true" ></t:dgCol>
-   <t:dgCol title="qq"  field="qq" width="100"></t:dgCol>
-  <t:dgCol title="微信"  field="weixin" width="100"></t:dgCol>
-   <t:dgCol title="地址"  field="address" width="200"></t:dgCol>
-   <t:dgCol title="状态"  field="status" width="100"></t:dgCol>
+   <t:dgCol title="标题"  field="title" hidden="false" width="100"></t:dgCol>
+   <t:dgCol title="内容"  field="content" hidden="false" width="400"  ></t:dgCol>
+   <t:dgCol title="状态"  field="status" width="100" query="true"></t:dgCol>
+    <t:dgCol title="创建人"  field="createNo" width="100" query="true"></t:dgCol>
    <t:dgCol title="存储时间"  field="createTime" formatter="yyyy-MM-dd hh:mm:ss" width="150"></t:dgCol>
    
-   <t:dgToolBar title="留言" icon="icon-add" url="webCc3Controller.do?contact_goAdd" funname="add" width="770" height="500"></t:dgToolBar>
-   <t:dgToolBar title="编辑" icon="icon-edit" url="webCc3Controller.do?putStock_goUpdate" funname="update" width="770"></t:dgToolBar>
-   <t:dgToolBar title="批量删除"  icon="icon-remove" url="webCc3Controller.do?putStock_doBatchDel" funname="deleteALLSelect"></t:dgToolBar>
-   <t:dgToolBar title="预出库"  icon="icon-edit" url="webCc3Controller.do?putStock_doBatchUpdate" funname="putStock_doBatchUpdate"></t:dgToolBar>
-  <t:dgToolBar operationCode="print" title="打印" icon="icon-print" url="jeecgListDemoController.do?print" funname="detail" width="610" height="330"></t:dgToolBar>
-  <t:dgToolBar  title="加载百度" icon="icon-print" url="#" funname="testReloadPage"></t:dgToolBar>
+   <t:dgToolBar title="新闻录入" icon="icon-add" url="webCc3Controller.do?case_goAdd" funname="add" width="770" height="500"></t:dgToolBar>
+   <t:dgToolBar title="编辑" icon="icon-edit" url="webCc3Controller.do?news_goUpdate" funname="update" width="770"></t:dgToolBar>
+   <t:dgToolBar title="批量删除"  icon="icon-remove" url="webCc3Controller.do?news_doBatchDel" funname="deleteALLSelect"></t:dgToolBar>
+
   </t:datagrid>     
   
 	

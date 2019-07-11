@@ -10,7 +10,7 @@
     <!--360浏览器优先以webkit内核解析-->
 
 
-    <title>农户库存管理系统</title>
+    <title>传成综合管理系统</title>
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href="plug-in-ui/hplus/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
@@ -23,7 +23,7 @@
 </head>
 
 <body style="center">
-<h1>欢迎使用农业管理系统</h1>
+<h1>欢迎使用传成综合管理系统</h1>
 </div>
 
 <!-- 全局js -->
